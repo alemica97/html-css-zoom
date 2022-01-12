@@ -11,6 +11,7 @@
 <body>
 
     <header>
+        <!-- gli elementi dell'header li ho spostati all'estrema destra con flex -->
         <div class="speaker">
             <i class="fas fa-th"></i>
             <p>Speaker View</p>
@@ -21,9 +22,10 @@
     </header>
 
     <main>
+        <!-- creo un container che conterrà tutti gli utenti che ho ordinato con l'utilizzo di flex -->
         <div class="users-container">
-
-            <div class="users-card">
+            <!-- Per ogni riquadro ho creato una card che comprende l'immagine e il nome sovrapposto -->
+            <div class="users-card overlay">
                 <div class="users-pic">
                     <img src="img/IMG_8405.jpg">
                 </div>
@@ -363,90 +365,61 @@
                     <i class="fas fa-chevron-up"></i>
                 </div>     
             </div>
-            
-            <!-- <div class="input-cam">
 
-            </div> -->
         </div>
 
         <div class="utility">
             
             <ul>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="fas fa-user-plus"></i>
+                        <p>Invite</p>
+                    </div> 
+                </li>
+                <li>
+                    <div class="input-icon">
+                        <i class="fas fa-user-friends"></i>
+                        <p>Manage Participants</p>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="far fa-chart-bar"></i>
+                        <p>Polling</p>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon active">
+                        <i class="fas fa-share-square"></i>
+                        <p>share Screen</p>
+                    </div>
+                    <div class="chevron">
+                        <i class="fas fa-chevron-up"></i>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="fas fa-comment"></i>
+                        <p>Chat</p>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="fas fa-record-vinyl"></i>
+                        <p>Record</p>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="fas fa-th-large"></i>
+                        <p>Breakout Rooms</p>
                     </div>
                 </li>
                 <li>
-                    <div class="input-wrapper">
-                        <div class="input-icon">
-                            <i class="fas fa-microphone-alt"></i>
-                            <p>Mute</p>
-                        </div>
-                        <div class="chevron">
-                            <i class="fas fa-chevron-up"></i>
-                        </div>     
+                    <div class="input-icon">
+                        <i class="fas fa-ellipsis-h"></i>
+                        <p>more</p>
                     </div>
                 </li>
             </ul>
@@ -454,7 +427,7 @@
         </div>
 
         <div class="end-call">
-            gggggggg
+            <p>End Meeting</p>
         </div>
 
     </nav>
