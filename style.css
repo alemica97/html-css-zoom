@@ -73,7 +73,6 @@ header{
          /* MAIN */
 
 main{
-    background-color: greenyellow;
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -85,11 +84,13 @@ main .users-container{
     height: 90%;
     flex-grow: 1;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .users-container .users-card{
-    flex-basis: calc(100% / 7);
     height: 200px;
+    margin-bottom: 10px;
     position: relative;
 }
 
