@@ -18,10 +18,6 @@ img{
     height: 100%;
 }
 
-ul ol{
-    list-style: none;
-}
-
 body{
     background-color: black;
     height: 100vh;
@@ -33,7 +29,6 @@ body{
 
 header{
     height: 40px;
-    /* background-color: chocolate; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -81,11 +76,10 @@ main{
 
 main .users-container{
     max-width: 90%;
-    height: 90%;
     flex-grow: 1;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    column-gap: 10px;
 }
 
 .users-container .users-card{
@@ -116,7 +110,46 @@ main .user-info{
 
 
 nav{
-    height: 100px;
-    background-color: purple;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: purple
 }
 
+.input-output{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.input-output .input-icon{
+    text-align: center;
+}
+
+.input-wrapper{
+    width: 80px;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-icon i{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.input-icon p{
+    font-size: 13px;
+}
+
+.utility{
+    display: flex;
+}
+
+.utility ul{
+    display: contents;
+    list-style: none;
+}
